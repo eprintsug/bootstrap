@@ -83,8 +83,8 @@
          <epc:pin ref="login_status" />
         </nav>
       <main id="page" class="col-md-10 col-sm-10 col-xs-12">
-        <div class="ep_tm_page_content shadow border">
-          <h1 class="ep_tm_pagetitle">
+        <div class="">
+          <h1 class="">
             <epc:pin ref="title" />
           </h1>
           <epc:pin ref="page" />
