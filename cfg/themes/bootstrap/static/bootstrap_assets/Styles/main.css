@@ -1,0 +1,24 @@
+/****************************************
+
+ Main Stylesheet for Bootstrap (EPrints)
+ 
+
+ This stylesheet tidies up some parts
+ of the EPrints interface to work with
+ Bootstrap by Twitter
+
+****************************************/
+
+
+
+
+/*******
+ Footer
+*******/
+ 
+footer {
+
+	position: absolute;
+	bottom: 0;
+
+}
