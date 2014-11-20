@@ -1,0 +1,15 @@
+/****************************************
+
+ Overrides for Bootstrap (EPrints)
+ 
+
+ This stylesheet overrides some default
+ EPrints styles.
+
+****************************************/
+
+
+form {
+	display: block;
+}
+

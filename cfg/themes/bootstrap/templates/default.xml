@@ -22,12 +22,13 @@
 
 	<!-- Addition CSS to make bootstrap fit eprints -->
 	<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/main.css" />
+	<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/ep_overrides.css" />
 		
   </head>
   <body>
     <epc:pin ref="pagetop" />
     <header>
-        <div class="navbar navbar-default" role="navigation">
+        <nav class="navbar navbar-default" role="navigation">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -73,30 +74,25 @@
               </ul>
 	      <form class="navbar-form navbar-right" role="search" method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search">
 		<div class="form-group">
-            		<input type="search" placeholder="Search the repository" class="ep_tm_searchbarboxX form-control" name="q" />
-            		<button class="btn btn-docklands" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search">Search</button>
+            		<input type="search" placeholder="Search the repository" class="form-control" name="q" />
 			<input type="hidden" name="_action_search" value="Search" />
 		        <input type="hidden" name="_order" value="bytitle" />
 		        <input type="hidden" name="basic_srchtype" value="ALL" />
 		        <input type="hidden" name="_satisfyall" value="ALL" />
 		</div>
+            		<button class="btn btn-default" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search">Search</button>
 	      </form>
+	      <div class="visible-xs">
+		<epc:pin ref="login_status" />
+	      </div>
             </div>
             <!-- /#mainnav -->
           </div>
           <!-- /.container-fluid -->
-        </div>
-        <!-- /#neutral-navbar -->
+        </nav>
     </header>
     <div id="main_page" class="container-fluid">
-	<nav class="col-md-2" id="" >
-         <h2 class="visible-xs" style="margin-left: 30px">Internal Menu</h2>
-	<button type="button" class="navbar-toggle" id="ep_menu_toggle" data-toggle="collapse" data-target="#ep_menu">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+	<nav class="col-md-2">
          <epc:pin ref="login_status" />
         </nav>
       <main id="page" class="col-md-offset-1 col-md-9 col-sm-9 col-xs-12">
@@ -129,7 +125,8 @@
         <script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/fixnav.js" /-->
 
         <script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/buttons-bootstrap.js" />
-        <script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/menu.js" />
+        <!--script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/menu.js" /-->
+        <script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/menu.js" />
         <!--script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/ep_toolbox.js" /-->
         <script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/ep_toolbox.js" />
         <script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/tabs.js" />
