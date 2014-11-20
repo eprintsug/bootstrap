@@ -40,7 +40,7 @@
 		<a class="navbar-brand" href="#">
 			<img alt="{phrase('archive_name')}" src="{$config{rel_path}}{$config{site_logo}}" style="height: 30px"/>
 		</a>
-		<a href="{$config{frontpage}}" title="{phrase('archive_name')}" class="navbar-brand"><epc:phrase ref="archive_name"/></a>
+		<a href="{$config{frontpage}}" title="{phrase('archive_name')}" class="navbar-brand"><epc:phrase ref="template/navigation:home"/> <!--epc:phrase ref="archive_name"/--></a>
               <h1 class="sr-only">
                 <epc:phrase ref="archive_name" />
               </h1>
@@ -99,7 +99,7 @@
               </button>
          <epc:pin ref="login_status" />
         </nav>
-      <main id="page" class="col-md-10 col-sm-10 col-xs-12">
+      <main id="page" class="col-md-offset-1 col-md-9 col-sm-9 col-xs-12">
         <div class="">
           <h1 class="">
             <epc:pin ref="title" />
