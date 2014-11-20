@@ -53,6 +53,13 @@
                 <li><a href="{$config{http_url}}/view/" menu="ep_tm_menu"><epc:phrase ref="template/navigation:browse" /></a></li>
                 <li><a href="{$config{http_url}}/view/divisions/">Browse by School</a></li>
                 <li><a href="{$config{http_url}}/view/creators/">Browse by Author</a></li>
+		<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="faulse">Dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu" role="menu">
+				<li><a href="#">Action</a></li>
+				<li><a href="#">Action</a></li>
+				<li><a href="#">Action</a></li>
+			</ul>		
+		</li>
               </ul>
 	      <form class="navbar-form navbar-right" role="search" method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search">
 		<div class="form-group">
@@ -117,5 +124,33 @@
         <script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/ep_toolbox.js" />
         <script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/tabs.js" />
         <script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/workflow.js" />
+	<script>
+		(function() {
+    var isBootstrapEvent = false;
+    if (window.jQuery) {
+        var all = jQuery('*');
+        jQuery.each(['hide.bs.dropdown', 
+            'hide.bs.collapse', 
+            'hide.bs.modal', 
+            'hide.bs.tooltip',
+            'hide.bs.popover'], function(index, eventName) {
+            all.on(eventName, function( event ) {
+                isBootstrapEvent = true;
+            });
+        });
+    }
+    var originalHide = Element.hide;
+    Element.addMethods({
+        hide: function(element) {
+            if(isBootstrapEvent) {
+                isBootstrapEvent = false;
+                return element;
+            }
+            return originalHide(element);
+        }
+    });
+})();
+	</script>	
+	
   </body>
 </html>
