@@ -50,14 +50,24 @@
             <div class="collapse navbar-collapse" id="mainnav" >
               <ul class="nav navbar-nav">
                 <li><a href="{$config{http_url}}/information.html"><epc:phrase ref="template/navigation:about" /></a></li>
-                <li><a href="{$config{http_url}}/view/" menu="ep_tm_menu"><epc:phrase ref="template/navigation:browse" /></a></li>
-                <li><a href="{$config{http_url}}/view/divisions/">Browse by School</a></li>
-                <li><a href="{$config{http_url}}/view/creators/">Browse by Author</a></li>
-		<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="faulse">Dropdown <span class="caret"></span></a>
+		<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><epc:phrase ref="template/navigation:browse" /> <span class="caret"></span></a>
 			<ul class="dropdown-menu" role="menu">
-				<li><a href="#">Action</a></li>
-				<li><a href="#">Action</a></li>
-				<li><a href="#">Action</a></li>
+                		<li><a href="{$config{http_url}}/view/year/">
+					<epc:phrase ref="bin/generate_views:indextitleprefix"/>
+        			        <epc:phrase ref="viewname_eprint_year"/>
+				</a></li>
+                		<li><a href="{$config{http_url}}/view/subject/">
+					<epc:phrase ref="bin/generate_views:indextitleprefix"/>
+			                <epc:phrase ref="viewname_eprint_subjects"/>
+				</a></li>
+                		<li><a href="{$config{http_url}}/view/divisions/">
+					<epc:phrase ref="bin/generate_views:indextitleprefix"/>
+			                <epc:phrase ref="viewname_eprint_divisions"/>
+				</a></li>
+		                <li><a href="{$config{http_url}}/view/creators/">
+					<epc:phrase ref="bin/generate_views:indextitleprefix"/>
+			                <epc:phrase ref="viewname_eprint_creators"/>
+				</a></li>
 			</ul>		
 		</li>
               </ul>
