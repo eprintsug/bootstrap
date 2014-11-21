@@ -23,6 +23,9 @@
 	<!-- Addition CSS to make bootstrap fit eprints -->
 	<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/main.css" />
 	<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/ep_overrides.css" />
+	
+	<!--  This is where the bootstrap theme for customisation goes -->
+	<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/bootstrap-theme.css" />
 		
   </head>
   <body>
