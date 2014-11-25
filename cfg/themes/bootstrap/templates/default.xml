@@ -133,6 +133,7 @@
 			</div>
 		</footer>
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/buttons.js" />
+		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/menu.js" />
 		
 		<!--script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/alerts.js" />
 			<script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/blisterbar.js" />
@@ -145,7 +146,7 @@
 			<script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/fixnav.js" /-->
 		<script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/buttons-bootstrap.js" />
 		<!--script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/menu.js" /-->
-		<script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/menu.js" />
+		<!--script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/menu.js" /-->
 		<!--script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/ep_toolbox.js" /-->
 		<script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/ep_toolbox.js" />
 			<script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/tabs.js" />
