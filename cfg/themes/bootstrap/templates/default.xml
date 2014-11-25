@@ -132,6 +132,8 @@
 				<epc:phrase ref="template:about_eprints" />
 			</div>
 		</footer>
+		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/buttons.js" />
+		
 		<!--script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/alerts.js" />
 			<script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/blisterbar.js" />
 			<script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/forms.js" />
