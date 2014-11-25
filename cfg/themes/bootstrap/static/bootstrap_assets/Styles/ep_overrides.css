@@ -13,3 +13,10 @@ form {
 	display: block;
 }
 
+.ep_tab_panel {
+	border: 1px solid #ddd;
+	border-top: 0px;
+	background-image: none;
+	background-color: #fff;
+}
+
