@@ -12,6 +12,7 @@ j(document).ready(function () {
 	j('ul.ep_tm_key_tools li').addClass('list-group-item');
 	j('ul.ep_tm_key_tools li:first-child').addClass('active');
 	j('ul.ep_tm_key_tools li:first-child span a').addClass('list-group-item-text');
+	j('ul.ep_tm_key_tools li:first-child a[href$="cgi/users/home"]').addClass('list-group-item-heading');
 
 	
 	
