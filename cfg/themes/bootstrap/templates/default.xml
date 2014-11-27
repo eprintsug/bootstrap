@@ -135,41 +135,43 @@
 				<epc:phrase ref="template:about_eprints" />
 			</div>
 		</footer>
+
+<!-- Scripts to override some eprints defaults and allow the default bootstrap to style everything -->
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/buttons.js" />
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/menu.js" />
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/forms.js" />
 		
-		<!--script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/alerts.js" />
-			<script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/tables.js" /-->
 		<script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/ep_toolbox.js" />
-			<script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/tabs.js" />
-			<script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/workflow.js" />
-			<script>
-			(function() {
+		<script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/tabs.js" />
+		<script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/workflow.js" />
+		<!-- important script to allow bootstrap.js to hide things, without Prototype getting upset and throwing a hissy fit. -->
+		<!-- from https://gist.github.com/andyhausmann/56ae58af55b14ecd56df --> 
+		<script>
+		jQuery(document).ready( function() {
 			var isBootstrapEvent = false;
 			if (window.jQuery) {
-			var all = jQuery('*');
-			jQuery.each(['hide.bs.dropdown', 
-			    'hide.bs.collapse', 
-			    'hide.bs.modal', 
-			    'hide.bs.tooltip',
-			    'hide.bs.popover'], function(index, eventName) {
-			    all.on(eventName, function( event ) {
-			        isBootstrapEvent = true;
-			    });
-			});
+				var all = jQuery('*');
+				jQuery.each(['hide.bs.dropdown',
+					'hide.bs.collapse',
+					'hide.bs.modal',
+					'hide.bs.tooltip',
+					'hide.bs.popover'], function(index, eventName) {
+					all.on(eventName, function( event ) {
+						isBootstrapEvent = true;
+					});
+				});
 			}
 			var originalHide = Element.hide;
 			Element.addMethods({
-			hide: function(element) {
-			    if(isBootstrapEvent) {
-			        isBootstrapEvent = false;
-			        return element;
-			    }
-			    return originalHide(element);
-			}
+				hide: function(element) {
+					if(isBootstrapEvent) {
+						isBootstrapEvent = false;
+						return element;
+					}
+					return originalHide(element);
+				}
 			});
-			})();
+		}); 
 		</script>	
 	</body>
 </html>
