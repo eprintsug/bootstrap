@@ -41,15 +41,14 @@
 						<img alt="{phrase('archive_name')}" src="{$config{rel_path}}{$config{site_logo}}" style="height: 30px"/>
 						</a>
 						<a href="{$config{frontpage}}" title="{phrase('archive_name')}" class="navbar-brand">
-							<epc:phrase ref="template/navigation:home"/>
-							<!--epc:phrase ref="archive_name"/-->
+							<epc:phrase ref="template/navigation:home"/> 
+							<!-- Include this if you want to display you repo name in the menu at the top <epc:phrase ref="archive_name"/> -->
 						</a>
-						<h1 class="sr-only">
+						<h1 class="sr-only"><!-- "sr-only" screen reader only -->
 							<epc:phrase ref="archive_name" />
 						</h1>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
-					<!-- /.navbar-collapse #topnav-->
 					<div class="collapse navbar-collapse" id="mainnav" >
 						<ul class="nav navbar-nav">
 							<li>
@@ -100,13 +99,11 @@
 							</div>
 							<button class="btn btn-default" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search">Search</button>
 						</form>
-						<div class="visible-xs">
+						<div class="visible-xs"><!-- this is only visable in the mobile view. It displays the menu (Manage Deposits, Admin, Review buffer, etc) as part of the main menu when in mobile view. try zooming in to see it. -->
 							<epc:pin ref="login_status" />
 						</div>
 					</div>
-					<!-- /#mainnav -->
 				</div>
-				<!-- /.container-fluid -->
 			</nav>
 		</header>
 		<div id="main_page" class="container-fluid">
