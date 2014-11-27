@@ -26,6 +26,8 @@
 	</head>
 	<body>
 		<epc:pin ref="pagetop" />
+
+<!-- -->
 		<header>
 			<nav class="navbar navbar-default" role="navigation">
 				<div class="container-fluid">
@@ -106,6 +108,8 @@
 				</div>
 			</nav>
 		</header>
+
+<!-- -->
 		<div id="main_page" class="container-fluid">
 			<nav class="col-md-2">
 				<epc:pin ref="login_status" />
@@ -119,6 +123,8 @@
 				</div>
 			</main>
 		</div>
+
+<!-- -->
 		<footer>
 			<div class="">
 				<div class="ep_tm_eprints_logo">
