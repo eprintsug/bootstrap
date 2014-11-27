@@ -8,11 +8,11 @@ var j = jQuery.noConflict();
 j(document).ready(function () {
 
 	//left hand side menu. Addes the classes needed for bootstrap to style the menu 
-	j('ul.ep_tm_key_tools ').addClass('list-group');
-	j('ul.ep_tm_key_tools li').addClass('list-group-item');
-	j('ul.ep_tm_key_tools li:first-child').addClass('active');
-	j('ul.ep_tm_key_tools li:first-child span a').addClass('list-group-item-text');
-	j('ul.ep_tm_key_tools li:first-child a[href$="cgi/users/home"]').addClass('list-group-item-heading');
+	j('#main_page ul.ep_tm_key_tools ').addClass('list-group');
+	j('#main_page ul.ep_tm_key_tools li').addClass('list-group-item');
+	j('#main_page ul.ep_tm_key_tools li:first-child').addClass('active');
+	j('#main_page ul.ep_tm_key_tools li:first-child span a').addClass('list-group-item-text');
+	j('#main_page ul.ep_tm_key_tools li:first-child a[href$="cgi/users/home"]').addClass('list-group-item-heading');
 
 	
 	
