@@ -144,6 +144,12 @@
 		<script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/ep_toolbox.js" />
 		<script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/tabs.js" />
 		<script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/workflow.js" />
+		
+		<!-- testing a script to convert some of eprints old school tables in to divs that can be easily manipluated by bootstrap -->
+		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/table2div.js" />
+		
+
+
 		<!-- important script to allow bootstrap.js to hide things, without Prototype getting upset and throwing a hissy fit. -->
 		<!-- from https://gist.github.com/andyhausmann/56ae58af55b14ecd56df --> 
 		<script>
