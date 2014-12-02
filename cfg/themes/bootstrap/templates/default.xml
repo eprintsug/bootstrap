@@ -23,93 +23,24 @@
 		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/ep_overrides.css" />
 		<!--  This is where the bootstrap theme for customisation goes -->
 		<!--link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/defatult-bootstrap-theme.css" /-->
+		
+		<style type="text/css">
+			<epc:phrase ref="bootstrap/branding_header:css"/>
+		</style>
+
 	</head>
 	<body>
 		<epc:pin ref="pagetop" />
 
-		<div class="container-fluid" id="branding_header">
-			<epc:phrase ref="bootstrap/branding_header"/>
-		</div>
 <!-- -->
 		<header>
-			<nav class="navbar navbar-default" role="navigation">
-				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainnav">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar" />
-						<span class="icon-bar" />
-						<span class="icon-bar" />
-						</button>
-						<a class="navbar-brand" href="#">
-						<img alt="{phrase('archive_name')}" src="{$config{rel_path}}{$config{site_logo}}" style="height: 30px"/>
-						</a>
-						<a href="{$config{frontpage}}" title="{phrase('archive_name')}" class="navbar-brand">
-							<epc:phrase ref="template/navigation:home"/> 
-							<!-- Include this if you want to display you repo name in the menu at the top <epc:phrase ref="archive_name"/> -->
-						</a>
-						<h1 class="sr-only"><!-- "sr-only" screen reader only -->
-							<epc:phrase ref="archive_name" />
-						</h1>
-					</div>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="mainnav" >
-						<ul class="nav navbar-nav">
-							<li>
-								<a href="{$config{http_url}}/information.html">
-									<epc:phrase ref="template/navigation:about" />
-								</a>
-							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-									<epc:phrase ref="template/navigation:browse" />
-									<span class="caret"></span>
-								</a>
-								<ul class="dropdown-menu" role="menu">
-									<li>
-										<a href="{$config{http_url}}/view/year/">
-											<epc:phrase ref="bin/generate_views:indextitleprefix"/>
-											<epc:phrase ref="viewname_eprint_year"/>
-										</a>
-									</li>
-									<li>
-										<a href="{$config{http_url}}/view/subject/">
-											<epc:phrase ref="bin/generate_views:indextitleprefix"/>
-											<epc:phrase ref="viewname_eprint_subjects"/>
-										</a>
-									</li>
-									<li>
-										<a href="{$config{http_url}}/view/divisions/">
-											<epc:phrase ref="bin/generate_views:indextitleprefix"/>
-											<epc:phrase ref="viewname_eprint_divisions"/>
-										</a>
-									</li>
-									<li>
-										<a href="{$config{http_url}}/view/creators/">
-											<epc:phrase ref="bin/generate_views:indextitleprefix"/>
-											<epc:phrase ref="viewname_eprint_creators"/>
-										</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-						<form class="navbar-form navbar-right" role="search" method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search">
-							<div class="form-group">
-								<input type="search" placeholder="Search the repository" class="form-control" name="q" />
-								<input type="hidden" name="_action_search" value="Search" />
-								<input type="hidden" name="_order" value="bytitle" />
-								<input type="hidden" name="basic_srchtype" value="ALL" />
-								<input type="hidden" name="_satisfyall" value="ALL" />
-							</div>
-							<button class="btn btn-default" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search">Search</button>
-						</form>
-						<div class="visible-xs"><!-- this is only visable in the mobile view. It displays the menu (Manage Deposits, Admin, Review buffer, etc) as part of the main menu when in mobile view. try zooming in to see it. -->
-							<epc:pin ref="login_status" />
-						</div>
-					</div>
-				</div>
-			</nav>
+			<div id="branding_header">
+	 		 <epc:phrase ref="bootstrap/branding_header:htmlTop"/>
+			</div>
+			<div class="clearfix"></div>
+			<div id="eprints_header">
+	 		 <epc:phrase ref="bootstrap/branding_header:htmlBottom"/>
+			</div>
 		</header>
 
 <!-- -->

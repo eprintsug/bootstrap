@@ -2,6 +2,268 @@
 <!DOCTYPE phrases SYSTEM "entities.dtd">
 <epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
 
-    <epp:phrase id="bootstrap/branding_header"><!-- bootstrap/branding_header --></epp:phrase>
+	<epp:phrase id="bootstrap/branding_header:css">
+/**********
+  Top Bit   
+**********/
+
+#bs_navbar {
+ border: none;
+ border-radius: 0;
+ min-height: 4em;
+ margin-bottom: 0!important;
+ background: #0094d5;
+}
+
+#bs_navbar a.navbar-brand, #bs_navbar a {
+ color: #fff!important;
+}
+#bs_navbar, #uel-navbackground a {
+ color: #0094d5; //think this is for the mobile view
+}
+
+#bs_navbar .navbar-collapse {
+ border: none;
+ box-shadow: none;
+}
+
+#bs_navbar .navbar-header .brand {
+}
+
+#bs_navbar .navbar-default .navbar-toggle:hover,#bs_navbar .navbar-default .navbar-toggle:focus {
+ background-color: #fff;
+}
+#bs_navbar .navbar-default .navbar-toggle .icon-bar {
+ background-color: #fff;
+}
+#bs_navbar .navbar-default .navbar-toggle:focus .icon-bar , #bs_navbar .navbar-default .navbar-toggle:hover .icon-bar {
+ background-color: #009bd9;
+}
+
+#topnav > ul > li.active {
+ display: none;
+}
+
+@media screen and (min-width:768px){
+#bs_navbar {
+ font-size: 10px;
+ font-family: Arial;
+}
+
+#bs_navbar, #bs_navbar .navbar-header {
+ height: 4em;
+}
+
+#bs_navbar .navbar a, #bs_navbar a.navbar-brand {
+text-decoration: none;
+-webkit-transition: all 0.15s ease-in-out;
+-moz-transition: all 0.15s ease-in-out;
+-ms-transition: all 0.15s ease-in-out;
+-o-transition: all 0.15s ease-in-out;
+transition: all 0.15s ease-in-out;
+//line-height: 2.5em;
+color: #fefefe;
+font-family: Arial;
+display: inline-block;
+height: 100%;
+text-align: center;
+//background: #0094d5;
+}
+
+.navbar-header a, #topnav a {
+font-size: 16px;
+}
+
+#bs_navbar > ul > li.active > a, #bs_navbar > ul > li:hover > a, .navbar-header a:hover, .social-icons-container li a:hover {
+background: #003471;
+color: white;
+}
+
+#bs_navbar .navbar-left a:hover, #bs_navbar .navbar-header a:hover {
+background: #003471!important;
+}
+.social-icons-container li i:hover {
+background-color: #003471!important;
+}
+
+/*#bs_navbar .navbar-brand, #bs_navbar > .navbar-nav > li > a, #bs_navbar .navbar-brand, #bs_navbar > .navbar-nav > li > span {*/
+#bs_navbar .navbar-header a, #bs_navbar .navbar-left a {
+padding-top: 10px!important;
+padding-bottom: 10px!important;
+}
+
+}
+
+/************
+ Social Icons
+************/
+
+.social-icons-container ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.social-icons-container {
+width: 193px;
+margin-left: 5px;
+float: right;
+position: relative;
+}
+.social-icons-container li a {
+padding: 0px!important;
+width: 100%!important
+}
+.social-icons-container li {
+width: 25%;
+position: relative;
+height: 2.5em;
+float: left;
+display: inline-block;
+}
+
+.uelicon {
+background: url('http://roartest.uel.ac.uk/roar_template/Images/uelicons.png') no-repeat;
+width: 48px;
+height: 39px;
+display: inline-block;
+}
+
+.icon-fb {
+background-position: 10px -172px;
+}
+.icon-yt {
+background-position: 10px -1210px;
+}
+.icon-tw {
+background-position: 10px -973px;
+}
+.icon-gp {
+background-position: 10px -409px;
+}
+	</epp:phrase>
+	<epp:phrase id="bootstrap/branding_header:htmlTop">
+<!-- bootstrap/branding_header -->
+<div id="bs_navbar" class="navbar navbar-default navbar-static-top" role="navigation">
+	<div class="container-fluid">
+        	<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#lowernav">
+		  <span class="sr-only">Toggle navigation</span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		 </button>
+		 <a class="navbar-brand" href="http://www.uel.ac.uk">UEL Home</a>
+		 <div class="visible-xs" id="header_icons">
+		  <a href="http://data.uel.ac.uk"><span class="visible-xs glyphicon glyphicon-home"></span></a>
+		  <a href="http://data.uel.ac.uk/cgi/users/home"><span class="visible-xs glyphicon glyphicon-user"></span></a>
+		  <a href="http://data.uel.ac.uk/cgi/users/home?screen=NewDeposit"><span class="visible-xs glyphicon glyphicon-plus"></span></a>
+		 </div>
+		 <h1 class="sr-only">Data.uel</h1>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="topnav">
+		 <ul class="nav navbar-nav navbar-left">
+		  <li><a href="http://www.uel.ac.uk/staff/">Staff</a></li>
+		  <li><a href="http://www.uel.ac.uk/students/">Students</a></li>
+		  <li><a href="http://www.uel.ac.uk/contactus/">Contact Us</a></li>
+                <!--li class="active"><a href="{$config{http_url}}">ROAR</a></li-->
+		 </ul>
+		 <ul class="nav navbar-nav navbar-right">
+		  <li class="social-icons-container">
+		   <ul>
+		    <li><a href="https://www.facebook.com/universityofeastlondon"><i class="uelicon icon-fb"></i></a></li>
+		    <li><a href="http://www.youtube.com/user/videouel"><i class="uelicon icon-yt"></i></a></li>
+		    <li><a href="https://twitter.com/uel_news"><i class="uelicon icon-tw"></i></a></li>
+		    <li><a href="https://plus.google.com/+universityofeastlondon/posts"><i class="uelicon icon-gp"></i></a></li>
+		   </ul>
+		  </li>
+		 </ul>
+		</div> <!-- /.navbar-collapse #topnav-->
+	</div> <!-- /.container-fluid -->
+</div> <!-- /#uel-navbar -->
+
+	</epp:phrase>
+	<epp:phrase id="bootstrap/branding_header:htmlBottom">
+<nav class="navbar navbar-default" role="navigation">
+                                <div class="container-fluid">
+                                        <!-- Brand and toggle get grouped for better mobile display -->
+                                        <div class="navbar-header">
+                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainnav">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar" />
+                                                <span class="icon-bar" />
+                                                <span class="icon-bar" />
+                                                </button>
+                                                <a class="navbar-brand" href="#">
+                                                <img alt="{phrase('archive_name')}" src="{$config{rel_path}}{$config{site_logo}}" style="height: 30px"/>
+                                                </a>
+                                                <a href="{$config{frontpage}}" title="{phrase('archive_name')}" class="navbar-brand">
+                                                        <epc:phrase ref="template/navigation:home"/>
+                                                        <!-- Include this if you want to display you repo name in the menu at the top <epc:phrase ref="archive_name"/> -->
+                                                </a>
+                                                <h1 class="sr-only"><!-- "sr-only" screen reader only -->
+                                                        <epc:phrase ref="archive_name" />
+                                                </h1>
+                                        </div>
+                                        <!-- Collect the nav links, forms, and other content for toggling -->
+                                        <div class="collapse navbar-collapse" id="mainnav" >
+                                                <ul class="nav navbar-nav">
+                                                        <li>
+                                                                <a href="{$config{http_url}}/information.html">
+                                                                        <epc:phrase ref="template/navigation:about" />
+                                                                </a>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                                                        <epc:phrase ref="template/navigation:browse" />
+                                                                        <span class="caret"></span>
+                                                                </a>
+                                                                <ul class="dropdown-menu" role="menu">
+                                                                        <li>
+                                                                                <a href="{$config{http_url}}/view/year/">
+                                                                                        <epc:phrase ref="bin/generate_views:indextitleprefix"/>
+                                                                                        <epc:phrase ref="viewname_eprint_year"/>
+                                                                                </a>
+                                                                        </li>
+                                                                        <li>
+                                                                                <a href="{$config{http_url}}/view/subject/">
+                                                                                        <epc:phrase ref="bin/generate_views:indextitleprefix"/>
+                                                                                        <epc:phrase ref="viewname_eprint_subjects"/>
+                                                                                </a>
+                                                                        </li>
+                                                                        <li>
+                                                                                <a href="{$config{http_url}}/view/divisions/">
+                                                                                        <epc:phrase ref="bin/generate_views:indextitleprefix"/>
+                                                                                        <epc:phrase ref="viewname_eprint_divisions"/>
+                                                                                </a>
+                                                                        </li>
+                                                                        <li>
+                                                                                <a href="{$config{http_url}}/view/creators/">
+                                                                                        <epc:phrase ref="bin/generate_views:indextitleprefix"/>
+                                                                                        <epc:phrase ref="viewname_eprint_creators"/>
+                                                                                </a>
+                                                                        </li>
+                                                                </ul>
+                                                        </li>
+                                                </ul>
+<form class="navbar-form navbar-right" role="search" method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search">
+                                                        <div class="form-group">
+                                                                <input type="search" placeholder="Search the repository" class="form-control" name="q" />
+                                                                <input type="hidden" name="_action_search" value="Search" />
+                                                                <input type="hidden" name="_order" value="bytitle" />
+                                                                <input type="hidden" name="basic_srchtype" value="ALL" />
+                                                                <input type="hidden" name="_satisfyall" value="ALL" />
+                                                        </div>
+                                                        <button class="btn btn-default" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search">Search</button>
+                                                </form>
+                                                <div class="visible-xs"><!-- this is only visable in the mobile view. It displays the menu (Manage Deposits, Admin, Review buffer, etc) as part of the main menu when in mobile view. try zooming in to see it. -->
+                                                        <epc:pin ref="login_status" />
+                                                </div>
+                                        </div>
+                                </div>
+                        </nav>
+
+	</epp:phrase>
 
 </epp:phrases>
