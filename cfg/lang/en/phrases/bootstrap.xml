@@ -141,6 +141,8 @@ background-position: 10px -973px;
 background-position: 10px -409px;
 }
 	</epp:phrase>
+
+	<epp:comment>htmlTop is the primary navbar. This contains the university/institutional brandingG.</epp:comment>
 	<epp:phrase id="bootstrap/branding_header:htmlTop">
 <!-- bootstrap/branding_header -->
 <div id="bs_navbar" class="navbar navbar-default navbar-static-top" role="navigation">
@@ -184,6 +186,8 @@ background-position: 10px -409px;
 </div> <!-- /#uel-navbar -->
 
 	</epp:phrase>
+
+	<epp:comment>htmlBottom is the secondary navbar. This contains the eprints menu, usually including the repo home button, and links to static pages (About), and the browse links.</epp:comment>
 	<epp:phrase id="bootstrap/branding_header:htmlBottom">
 <nav class="navbar navbar-default" role="navigation">
                                 <div class="container-fluid">
