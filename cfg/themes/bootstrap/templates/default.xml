@@ -27,6 +27,9 @@
 	<body>
 		<epc:pin ref="pagetop" />
 
+		<div class="container-fluid" id="branding_header">
+			<epc:phrase ref="bootstrap/branding_header"/>
+		</div>
 <!-- -->
 		<header>
 			<nav class="navbar navbar-default" role="navigation">
