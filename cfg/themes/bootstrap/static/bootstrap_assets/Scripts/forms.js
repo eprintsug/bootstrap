@@ -26,4 +26,20 @@ j(document).ready(function () {
 	// Style the collapses bars to look okay
 	j('.ep_sr_component .ep_sr_collapse_bar').addClass('panel-heading').removeClass('ep_sr_collapse_bar');
 
+
+
+
+	//import form
+	j('form table td:contains("Import from")').closest("form").addClass('form-inline import-form');
+	j('.import-form select').addClass('form-control').wrap('<div class="form-group"></div>');
+
+	
+	//add column form
+	j('.ep_columns_add form').addClass('form-inline').children().wrap('<div class="form-group"></div>');
+	j('.ep_columns_add form select').addClass('form-control');
+
+	//simple search form
+	j('main form[action="/cgi/search/simple"]').addClass('form-inline search-form');
+	j('.search-form input[name="q"]').addClass('form-control').attr('placeholder','Search the repository').wrap('<div class="form-group"></div>');
+	
 });
