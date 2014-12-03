@@ -262,7 +262,8 @@ background-position: 10px -409px;
                                                         <button class="btn btn-default" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search">Search</button>
                                                 </form>
                                                 <div class="visible-xs"><!-- this is only visable in the mobile view. It displays the menu (Manage Deposits, Admin, Review buffer, etc) as part of the main menu when in mobile view. try zooming in to see it. -->
-                                                        <epc:pin ref="login_status" />
+                                                        <!--epc:pin ref="login_status" /-->
+							<div id="login_status"></div>
                                                 </div>
                                         </div>
                                 </div>
