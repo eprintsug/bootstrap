@@ -16,10 +16,10 @@ j(document).ready(function () {
 	
 
 	//left hand side menu. Adds the id, then the needed classes for bootstrap to style the menu 
-	j('#main_page .ep_tm_key_tools').removeClass('ep_tm_key_tools').attr('id','ep_menu');
+	j('#main_page .ep_tm_key_tools').removeClass('ep_tm_key_tools').attr('id','ep_menu').addClass('hidden-xs');
 	j('#main_page ul#ep_menu ').addClass('list-group');
 	j('#main_page ul#ep_menu li').addClass('list-group-item');
-	j('#main_page ul#ep_menu li:first-child').addClass('active');
+	j('#main_page ul#ep_menu li:first-child:contains("Logged")').addClass('active');
 	j('#main_page ul#ep_menu li:first-child span a').addClass('list-group-item-text');
 	j('#main_page ul#ep_menu li:first-child a[href$="cgi/users/home"]').addClass('list-group-item-heading');
 
