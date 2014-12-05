@@ -20,6 +20,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 		<!-- Addition CSS to make bootstrap fit eprints -->
 		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/main.css" />
+		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/bs_overrides.css" />
 		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/ep_overrides.css" />
 		<!--  This is where the bootstrap theme for customisation goes -->
 		<!--link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/default-bootstrap-theme.css" /-->
