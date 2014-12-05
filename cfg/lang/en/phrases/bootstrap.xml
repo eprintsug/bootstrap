@@ -271,4 +271,10 @@ background-position: 10px -409px;
 
 	</epp:phrase>
 
+
+	<epp:comment>htmlBottom is the secondary navbar. This contains the eprints menu, usually including the repo home button, and links to static pages (About), and the browse links.</epp:comment>
+	<epp:phrase id="bootstrap/branding_footer:html">
+<!-- Space for corporate footer -->
+	</epp:phrase>
+
 </epp:phrases>

@@ -68,6 +68,9 @@
 				</div>
 				<epc:phrase ref="template:about_eprints" />
 			</div>
+			<div id="branding_footer">
+	 	 	 <epc:phrase ref="bootstrap/branding_footer:html"/>
+			</div>
 		</footer>
 
 <!-- Scripts to override some eprints defaults and allow the default bootstrap to style everything -->
