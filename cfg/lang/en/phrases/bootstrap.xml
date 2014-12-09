@@ -5,7 +5,6 @@
 
 	<epp:comment>This is all the theme related stylesheets needed for your Bootstrap theme.</epp:comment>
 	<epp:phrase id="bootstrap/stylesheets">
-                        <link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/UEL/uel_style.css" />
         </epp:phrase>
 	
 	<epp:phrase id="bootstrap/branding_header:css">
