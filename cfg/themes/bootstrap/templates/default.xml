@@ -22,6 +22,7 @@
 		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/main.css" />
 		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/bs_overrides.css" />
 		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/ep_overrides.css" />
+                <epc:phrase ref="bootstrap/stylesheets"/>
 		<!--  This is where the bootstrap theme for customisation goes -->
 		<!--link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/default-bootstrap-theme.css" /-->
 
