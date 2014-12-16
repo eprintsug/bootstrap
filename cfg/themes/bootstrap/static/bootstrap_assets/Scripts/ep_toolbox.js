@@ -11,6 +11,8 @@ j(document).ready(function () {
 	var panel = j('.ep_toolbox');	
 	var unwrap = j('.ep_toolbox_content');
 	var panelHeading = j('.ep_toolbox a'); 
+		
+	//front page
 	if (j('.ep_toolbox_content b').length){
 		j('.ep_toolbox_content b').wrap('<div class="panel-body"></div>');
 		
@@ -28,13 +30,16 @@ j(document).ready(function () {
 	});
 
 	//add the classes and the wrappers	
-	panel.addClass('panel panel-default panel-docklands-fp');
+	panel.addClass('panel panel-default p');
 	//panelTextNode.wrap('<div class="panel-body"><p></p></div>');
 	panelHeading.wrap('<div class="panel-heading"><h3 class="panel-title"></h3></div>');
 	
 	// Removing some stuff that isnt needed
 	panel.find('br').remove();
+	
+	//unwrapping it
 	unwrap.children().unwrap();
+
 	//j('.panel .panel-body p').is(':empty').remove();
 	panel.removeClass('ep_toolbox').addClass('frontpage-panel');
 
