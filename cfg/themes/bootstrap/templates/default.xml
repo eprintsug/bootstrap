@@ -25,7 +25,6 @@
                 <epc:phrase ref="bootstrap/stylesheets"/>
 		<!--  This is where the bootstrap theme for customisation goes -->
 		<!--link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/default-bootstrap-theme.css" /-->
-
 		<style type="text/css">
 			<epc:phrase ref="bootstrap/branding_header:css"/>
 		</style>
@@ -89,6 +88,9 @@
 		
 		<!-- script to make more things panels -->
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/ep_toolbox.js" />
+		
+		<!-- script to make the admin settings look better -->
+		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/admin_menus.js" />
 
 		<!-- important script to allow bootstrap.js to hide things, without Prototype getting upset and throwing a hissy fit. -->
 		<!-- from https://gist.github.com/andyhausmann/56ae58af55b14ecd56df --> 
