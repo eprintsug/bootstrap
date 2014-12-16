@@ -26,3 +26,18 @@ form {
 	background-color: #fff;
 }
 
+.ep_block {
+
+margin-bottom: 1em;
+
+}
+
+/****************************
+ Override for RIOXX2 plugin.
+ 120% font size breaks the 
+ bootstrap tabs. 
+*****************************/
+
+li #rioxx2_tab_title {
+	font-size: 90%!important;
+}
