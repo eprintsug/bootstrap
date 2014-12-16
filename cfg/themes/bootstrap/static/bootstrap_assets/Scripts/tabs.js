@@ -8,10 +8,10 @@ var j = jQuery.noConflict();
 j(document).ready(function () {
 
 	//all the tabs that we want to change to bootstrap style
-	var tabs = j('#ep_tabs_tabs, #ep_admin_tabs_tabs, #ep_workflow_views_tabs, #ep_eprint_view_tabs,#ep_eprint_views_tabs #_tabs, .ep_eprint_views_tabs');
+	var tabs = j('#ep_tabs_tabs, #ep_admin_tabs_tabs, #ep_workflow_views_tabs, #ep_eprint_view_tabs,#ep_eprint_views_tabs #_tabs, .ep_eprint_views_tabs, .ep_tab_bar');
 	tabs.addClass('nav-justified').children().css('width','');
 	var selected_tabs = j('.ep_tab_selected');
-	var li_tabs = j('#ep_tabs_tabs li, #ep_admin_tabs_tabs li, #ep_workflow_views_tabs li, #ep_eprint_view_tabs li, #_tabs li');
+	var li_tabs = j('#ep_tabs_tabs li, #ep_admin_tabs_tabs li, #ep_workflow_views_tabs li, #ep_eprint_view_tabs li, #_tabs li, .ep_tab_bar li');
 
         
 	//remove the eprint classes and add the bootstrap classes
