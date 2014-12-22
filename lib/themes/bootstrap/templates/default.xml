@@ -23,7 +23,7 @@
 		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/bs_overrides.css" />
 		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/ep_overrides.css" />
 
-		// Poink. Solution for DOM changes that create buttons
+		<!-- Poink. Solution for DOM changes that create buttons -->
 		<script src="https://cdn.rawgit.com/dustinboston/poink/master/jquery.poink.js"></script>
 
                 <epc:phrase ref="bootstrap/stylesheets"/>
