@@ -22,6 +22,10 @@
 		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/main.css" />
 		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/bs_overrides.css" />
 		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/ep_overrides.css" />
+
+		// Poink. Solution for DOM changes that create buttons
+		<script src="https://cdn.rawgit.com/dustinboston/poink/master/jquery.poink.js"></script>
+
                 <epc:phrase ref="bootstrap/stylesheets"/>
 		<!--  This is where the bootstrap theme for customisation goes -->
 		<!--link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/default-bootstrap-theme.css" /-->
@@ -111,6 +115,7 @@
 
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/table-destroyer.js" />
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/ep_search_control.js" />
+		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/bazaar-styler.js" />
 
 
 		<!-- important script to allow bootstrap.js to hide things, without Prototype getting upset and throwing a hissy fit. -->
