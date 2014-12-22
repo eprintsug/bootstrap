@@ -108,6 +108,10 @@
 		<!-- script to make the tabs above stuff look better -->
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/tabs.js" />
 
+
+		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/table-destroyer.js" />
+
+
 		<!-- important script to allow bootstrap.js to hide things, without Prototype getting upset and throwing a hissy fit. -->
 		<!-- from https://gist.github.com/andyhausmann/56ae58af55b14ecd56df --> 
 		<script>
