@@ -42,6 +42,10 @@ margin-bottom: 1em;
 border-bottom: 5px solid transparent;
 }
 
+.ep_form_input_grid td {
+border-right: 3px solid transparent;
+}
+
 /****************************
  Override for RIOXX2 plugin.
  120% font size breaks the 
