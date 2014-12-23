@@ -33,6 +33,15 @@ margin-bottom: 1em;
 
 }
 
+/***********
+* Workflows..
+*************/
+
+.ep_form_input_grid tr {
+
+border-bottom: 5px solid transparent;
+}
+
 /****************************
  Override for RIOXX2 plugin.
  120% font size breaks the 

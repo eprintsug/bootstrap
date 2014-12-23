@@ -23,8 +23,8 @@
 		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/bs_overrides.css" />
 		<link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/ep_overrides.css" />
 
-		<!-- Poink. Solution for DOM changes that create buttons -->
-		<script src="https://cdn.rawgit.com/dustinboston/poink/master/jquery.poink.js"></script>
+		<!-- jQuery-observe (https://github.com/kapetan/jquery-observe). Solution for DOM changes that create buttons -->
+		<script src="https://cdn.rawgit.com/kapetan/jquery-observe/master/jquery-observe.js"></script>
 
                 <epc:phrase ref="bootstrap/stylesheets"/>
 		<!--  This is where the bootstrap theme for customisation goes -->
