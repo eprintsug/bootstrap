@@ -117,6 +117,7 @@
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/ep_search_control.js" />
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/bazaar-styler.js" />
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/ep_warnings.js" />
+		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/adv_search.js" />
 
 
 		<!-- important script to allow bootstrap.js to hide things, without Prototype getting upset and throwing a hissy fit. -->
