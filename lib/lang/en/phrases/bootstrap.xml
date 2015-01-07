@@ -80,17 +80,27 @@
                                                                 </ul>
                                                         </li>
                                                 </ul>
-<form class="navbar-form navbar-right" role="search" method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search">
-                                                        <div class="form-group">
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+							 <form class="navbar-form" role="search" method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search">
+                                                          <div class="form-group">
                                                                 <input type="search" placeholder="Search the repository" class="form-control" name="q" />
                                                                 <input type="hidden" name="_action_search" value="Search" />
                                                                 <input type="hidden" name="_order" value="bytitle" />
                                                                 <input type="hidden" name="basic_srchtype" value="ALL" />
                                                                 <input type="hidden" name="_satisfyall" value="ALL" />
-                                                        </div>
-                                                        <button class="btn btn-default" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search">Search</button>
-                                                </form>
-                                                <div class="visible-xs"><!-- this is only visable in the mobile view. It displays the menu (Manage Deposits, Admin, Review buffer, etc) as part of the main menu when in mobile view. try zooming in to see it. -->
+                                                          </div>
+                                                          <button class="btn btn-primary" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search">Search</button>
+                                                	 </form>
+							</li>
+							<li>
+							 <form class="navbar-form" action="http://eprints-dev.uel.ac.uk/cgi/search/advanced">
+                                                          <input class="btn btn-primary" value="{phrase('lib/searchexpression:advanced_link')}" type="submit" />
+							 </form>
+							</li>
+                                                </ul>
+
+						<div class="visible-xs"><!-- this is only visable in the mobile view. It displays the menu (Manage Deposits, Admin, Review buffer, etc) as part of the main menu when in mobile view. try zooming in to see it. -->
                                                         <!--epc:pin ref="login_status" /-->
 							<div id="login_status"></div>
                                                 </div>
