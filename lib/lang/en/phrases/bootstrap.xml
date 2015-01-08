@@ -90,12 +90,12 @@
                                                                 <input type="hidden" name="basic_srchtype" value="ALL" />
                                                                 <input type="hidden" name="_satisfyall" value="ALL" />
                                                           </div>
-                                                          <button class="btn btn-primary" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search">Search</button>
+                                                          <button class="btn btn-default" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search">Search</button>
                                                 	 </form>
 							</li>
 							<li>
 							 <form class="navbar-form" action="http://eprints-dev.uel.ac.uk/cgi/search/advanced">
-                                                          <input class="btn btn-primary" value="{phrase('lib/searchexpression:advanced_link')}" type="submit" />
+                                                          <input class="btn btn-default" value="{phrase('lib/searchexpression:advanced_link')}" type="submit" />
 							 </form>
 							</li>
                                                 </ul>
