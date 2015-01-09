@@ -8,13 +8,15 @@ This is a basic bootstrap eprints theme with as few design decisions as possible
 
 ## Releases 
 
-### 0.1.0 Beta
+### 1.0.0 Beta
 
-Close to feature comeplete. Report any issues on Github issue tracker: https://github.com/eprintsug/bootstrap/issues
+Very close to feature comeplete. Report any issues on Github issue tracker: https://github.com/eprintsug/bootstrap/issues
+
+Issues will be fixed in future releases.
 
 ## Branding
 
-At the moment this is done by copying and updating lang/en/phrases/bootstrap.xml 
+The theme should work with any Bootstrap theme. The headers can be updated and changed by replacing the corisponding phrases. At the moment this is done by copying and updating lang/en/phrases/bootstrap.xml
 
-This might change in future releases.
+This might change in future releases (possibly to js templating). 
 
