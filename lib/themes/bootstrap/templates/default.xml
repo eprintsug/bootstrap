@@ -31,17 +31,6 @@
 		<!--link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/default-bootstrap-theme.css" /-->
 		<style type="text/css">
 			<epc:phrase ref="bootstrap/branding_header:css"/>
-			#blocker {
-				height: 100%;
-				width: 100%;
-				position: fixed;
-				top: 0px;
-				background-color: #fff;
-				z-index: 100000;
-				background-image: url('http://jimpunk.net/Loading/wp-content/uploads/loading18.gif');
-				background-repeat: no-repeat;
-				background-position: center center;
-			}
 		</style>
 	
 	</head>

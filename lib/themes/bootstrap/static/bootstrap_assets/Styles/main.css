@@ -18,6 +18,24 @@ border-color: #ddd
 border-color: #888
 }
 
+/******************************
+ Blocking element that obscures 
+ page until javascript has 
+ finished transforming it. 
+*******************************/
+
+#blocker {
+height: 100%;
+width: 100%;
+position: fixed;
+top: 0px;
+background-color: #fff;
+z-index: 100000;
+background-image: url('http://eprints-dev.uel.ac.uk/bootstrap_assets/Images/loading18.gif');
+background-repeat: no-repeat;
+background-position: center center;
+}
+
 
 /*******
  Footer
