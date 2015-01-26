@@ -27,7 +27,7 @@
 		<script src="https://cdn.rawgit.com/kapetan/jquery-observe/master/jquery-observe.js"></script>
 		
 		 <!-- Expander -->
-		<script src="/roar_template/Scripts/jquery.expander.min.js"></script>
+		<script src="/bootstrap_assets/Scripts/jquery.expander.min.js"></script>
 	
                 <epc:phrase ref="bootstrap/stylesheets"/>
 		<!--  This is where the bootstrap theme for customisation goes -->
