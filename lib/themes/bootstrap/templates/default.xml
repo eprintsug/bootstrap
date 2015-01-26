@@ -25,7 +25,10 @@
 
 		<!-- jQuery-observe (https://github.com/kapetan/jquery-observe). Solution for DOM changes that create buttons -->
 		<script src="https://cdn.rawgit.com/kapetan/jquery-observe/master/jquery-observe.js"></script>
-
+		
+		 <!-- Expander -->
+		<script src="/roar_template/Scripts/jquery.expander.min.js"></script>
+	
                 <epc:phrase ref="bootstrap/stylesheets"/>
 		<!--  This is where the bootstrap theme for customisation goes -->
 		<!--link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/default-bootstrap-theme.css" /-->
