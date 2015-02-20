@@ -94,7 +94,7 @@
                                                 	 </form>
 							</li>
 							<li>
-							 <form class="navbar-form" action="http://eprints-dev.uel.ac.uk/cgi/search/advanced">
+							 <form class="navbar-form" action="{$config{http_cgiurl}}/search/advanced">
                                                           <input class="btn btn-default" value="{phrase('lib/searchexpression:advanced_link')}" type="submit" />
 							 </form>
 							</li>
