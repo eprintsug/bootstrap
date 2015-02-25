@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <epm xmlns='http://eprints.org/ep2/data/2.0' id='http://eprints-dev.uel.ac.uk/id/epm/bootstrap'>
   <epmid>bootstrap</epmid>
-  <uri>http://template.ulcc.ac.uk/id/epm/bootstrap</uri>
+  <uri>http://eprints-dev.uel.ac.uk/id/epm/bootstrap</uri>
   <documents>
     <document>
       <files>
         <file>
           <datasetid>document</datasetid>
-          <filename>epm/bootstrap/cfg/citations/eprint/summary_page.xml</filename>
+          <filename>epm/bootstrap/cfg/citations/eprint/bootstrap_summary_page.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>5530697eb5b84a5629fc037ed934835e</hash>
+          <hash>9fe2bb5064e01e7981e970099ff1c6ab</hash>
           <hash_type>MD5</hash_type>
-          <filesize>17602</filesize>
+          <filesize>11053</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -23,11 +23,19 @@
         </file>
         <file>
           <datasetid>document</datasetid>
+          <filename>plugins/EPrints/Plugin/Screen/EPMC/Bootstrap.pm</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>53a88c9a939924ab99b2f2f6d810fc37</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1851</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
           <filename>lang/en/phrases/bootstrap.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>760a642f22cf053882d1198700bc3296</hash>
+          <hash>702c9b7870883c26a7580e447edadc35</hash>
           <hash_type>MD5</hash_type>
-          <filesize>9393</filesize>
+          <filesize>9383</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -41,9 +49,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Styles/ep_overrides.css</filename>
           <mime_type>text/plain</mime_type>
-          <hash>0487651d2d815c93e31acae7ec7be304</hash>
+          <hash>65945471f1c3215e0a1a547a507d77b2</hash>
           <hash_type>MD5</hash_type>
-          <filesize>856</filesize>
+          <filesize>961</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -137,9 +145,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Scripts/menu.js</filename>
           <mime_type>text/plain</mime_type>
-          <hash>3f395759d175c3ee30023ebfdd2c7fc1</hash>
+          <hash>e6d6ca53419df0bcd4ded5e18ec741a6</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1271</filesize>
+          <filesize>1587</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -211,7 +219,8 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>1.0.0</version>
+  <version>1.0.24</version>
+  <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
       <name>
@@ -220,7 +229,7 @@
       </name>
     </item>
   </creators>
-  <datestamp>2015-02-20 16:18:25</datestamp>
+  <datestamp>2015-02-25 12:01:12</datestamp>
   <title>Bootstrap for EPrints</title>
   <description>An alternative look and feel which uses the bootstrap library (http://getbootstrap.com/).</description>
   <icon>images/epm/bootstrap.png</icon>
