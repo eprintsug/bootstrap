@@ -46,7 +46,11 @@ sub action_enable
 	move($original,$backup) or die "Arse";	
 	#copy bootstrap to original
 	copy($bootstrap,$original);
-
+	
+	unless( $repo->expire_abstracts() )
+        {
+		$self->{processor}->add_message( "warning","You need to regenerate abstracts" );
+        }
  
 	$self->reload_config if !$skip_reload;
  }
