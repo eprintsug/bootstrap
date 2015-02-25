@@ -25,9 +25,9 @@
           <datasetid>document</datasetid>
           <filename>plugins/EPrints/Plugin/Screen/EPMC/Bootstrap.pm</filename>
           <mime_type>text/plain</mime_type>
-          <hash>00b31da2b2f32797b309c71061904279</hash>
+          <hash>d28a1a6f1e347b32bbec05788a39feb1</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1992</filesize>
+          <filesize>2111</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -219,7 +219,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>1.0.28</version>
+  <version>1.1.0</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -229,7 +229,7 @@
       </name>
     </item>
   </creators>
-  <datestamp>2015-02-25 16:39:25</datestamp>
+  <datestamp>2015-02-25 16:44:40</datestamp>
   <title>Bootstrap for EPrints</title>
   <description>An alternative look and feel which uses the bootstrap library (http://getbootstrap.com/).</description>
   <icon>images/epm/bootstrap.png</icon>

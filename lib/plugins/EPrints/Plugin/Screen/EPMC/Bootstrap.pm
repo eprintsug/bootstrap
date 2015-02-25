@@ -64,18 +64,25 @@ If SKIP_RELOAD is true will not reload the repository configuration.
 =cut
  
 sub action_disable
- {
-       my( $self, $skip_reload ) = @_;
+{
+	my( $self, $skip_reload ) = @_;
  
-       $self->SUPER::action_disable( $skip_reload );
-       my $repo = $self->{repository};
- 
+	$self->SUPER::action_disable( $skip_reload );
+	my $repo = $self->{repository};
+
+
 	my $backup = $repo->config( "config_path" )."/citations/eprint/summary_page.xml_backup";
-        my $original = $repo->config( "config_path" )."/citations/eprint/summary_page.xml";
-        #copy backup to original 
-        copy($backup,$original);      
- 
-       $self->reload_config if !$skip_reload;
+	my $original = $repo->config( "config_path" )."/citations/eprint/summary_page.xml";
+        
+	#copy backup to original 
+	copy($backup,$original);      
+
+	unless( $repo->expire_abstracts() )
+        {
+                $self->{processor}->add_message( "warning","You need to regenerate abstracts" );
+        }
+	 
+	$self->reload_config if !$skip_reload;
  
 }
  
