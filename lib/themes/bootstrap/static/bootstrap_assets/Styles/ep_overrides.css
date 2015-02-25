@@ -55,3 +55,9 @@ border-right: 3px solid transparent;
 li #rioxx2_tab_title {
 	font-size: 90%!important;
 }
+
+/*******************
+ Summary Page Stuff
+********************/
+
+#summary_buttons a:visited {color:#fff}
