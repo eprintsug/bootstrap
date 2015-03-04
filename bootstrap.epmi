@@ -33,17 +33,17 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/bootstrap.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>702c9b7870883c26a7580e447edadc35</hash>
+          <hash>9ba18fc2260f9a41a1eb346296114e89</hash>
           <hash_type>MD5</hash_type>
-          <filesize>9383</filesize>
+          <filesize>9776</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/templates/default.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>3aba3e807ce7948a52a3d25336b348ff</hash>
+          <hash>9934ced8def95aa445e21dd0693f5674</hash>
           <hash_type>MD5</hash_type>
-          <filesize>5682</filesize>
+          <filesize>5683</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -219,7 +219,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -229,7 +229,7 @@
       </name>
     </item>
   </creators>
-  <datestamp>2015-02-25 16:44:40</datestamp>
+  <datestamp>2015-03-04 15:49:46</datestamp>
   <title>Bootstrap for EPrints</title>
   <description>An alternative look and feel which uses the bootstrap library (http://getbootstrap.com/).</description>
   <icon>images/epm/bootstrap.png</icon>
