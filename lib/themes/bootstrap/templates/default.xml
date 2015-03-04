@@ -10,13 +10,14 @@
 		</title>
 		<link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" />
+                <epc:phrase ref="bootstrap/head_imports:jQuery"/>
+
 		<epc:pin ref="head" />
 		
 		<!-- Boostrap -->
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no" />
 		<!-- bootstrap_import -->
-		<epc:phrase ref="bootstrap/bootstrap_import"/>
+		<epc:phrase ref="bootstrap/head_imports:bootstrap"/>
 		<!-- /bootstrap_import -->
 
 		<!-- Addition CSS to make bootstrap fit eprints -->

@@ -3,8 +3,12 @@
 <epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
 
 
+        <epp:phrase id="bootstrap/head_imports:jQuery">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" />
+	</epp:phrase>
+	
 	<epp:comment>Update these imports to use new versions of Bootstrap of a locally hosted version.</epp:comment>
-        <epp:phrase id="bootstrap/bootstrap_import">
+        <epp:phrase id="bootstrap/head_imports:bootstrap">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	</epp:phrase>
