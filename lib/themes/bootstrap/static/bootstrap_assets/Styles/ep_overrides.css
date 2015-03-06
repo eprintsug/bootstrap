@@ -66,4 +66,7 @@ li #rioxx2_tab_title {
  links    
 *********/
 
-a, a:visited {color: #333}
+a, a:hover , a:visited {
+color: #333;
+text-decoration: none;
+}
