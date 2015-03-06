@@ -16,7 +16,9 @@ Issues will be fixed in future releases.
 
 ## Branding
 
-The theme should work with any Bootstrap theme. The headers can be updated and changed by replacing the corresponding phrases. At the moment this is done by copying and updating lang/en/phrases/bootstrap.xml
+The theme should work with any Bootstrap theme. Themes can be crated using the amazing theme generator here: http://pikock.github.io/bootstrap-magic/app/index.html#!/editor
+
+The headers can be updated and changed by replacing the corresponding phrases. This should be done by copying ~/lib/lang/en/phrases/bootstrap.xml to ~/lib/lang/en/phrases/z_bootstrap.xml and editing the new file.
 
 This might change in future releases (possibly to js templating). 
 
