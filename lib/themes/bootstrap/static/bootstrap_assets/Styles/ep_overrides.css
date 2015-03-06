@@ -68,5 +68,8 @@ li #rioxx2_tab_title {
 
 a, a:hover , a:visited {
 color: #333;
-text-decoration: none;
+text-decoration: none!important;
+}
+a:hover {
+color: #111
 }
