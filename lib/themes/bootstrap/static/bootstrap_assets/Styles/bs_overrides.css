@@ -1,3 +1,10 @@
 
 
 pre { overflow: visible!important }
+
+.form-control {
+
+display: inline-block!important;
+width:auto!;
+
+}
