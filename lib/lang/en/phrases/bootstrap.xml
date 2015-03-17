@@ -16,6 +16,10 @@
 	<epp:comment>This is all the theme related stylesheets needed for your Bootstrap theme.</epp:comment>
 	<epp:phrase id="bootstrap/stylesheets">
         </epp:phrase>
+
+	<epp:comment>This is all the theme related scripts needed for your Bootstrap theme.</epp:comment>
+        <epp:phrase id="bootstrap/scripts">
+        </epp:phrase>
 	
 	<epp:phrase id="bootstrap/branding_header:css">
 /* some CSS for branding header could go here, though the main CSS files would make more sense */
