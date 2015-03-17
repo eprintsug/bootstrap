@@ -86,7 +86,7 @@
 			</div>
 		</footer>
 
-                <epc:phrase ref="bootstrap/stylesheets"/>
+                <epc:phrase ref="bootstrap/scripts"/>
 
 	
 		<!-- Scripts to override some eprints defaults and allow the default bootstrap to style everything -->
