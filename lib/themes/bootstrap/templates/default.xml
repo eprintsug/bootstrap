@@ -86,7 +86,10 @@
 			</div>
 		</footer>
 
-<!-- Scripts to override some eprints defaults and allow the default bootstrap to style everything -->
+                <epc:phrase ref="bootstrap/stylesheets"/>
+
+	
+		<!-- Scripts to override some eprints defaults and allow the default bootstrap to style everything -->
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/buttons.js" />
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/menu.js" />
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/forms.js" />
