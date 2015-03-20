@@ -33,25 +33,25 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/bootstrap.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>9ba18fc2260f9a41a1eb346296114e89</hash>
+          <hash>8dd862f51e57c79a5ff2c541bfea311a</hash>
           <hash_type>MD5</hash_type>
-          <filesize>9776</filesize>
+          <filesize>10320</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/templates/default.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>9934ced8def95aa445e21dd0693f5674</hash>
+          <hash>64a167acb31e90d2d92d3eeb20351429</hash>
           <hash_type>MD5</hash_type>
-          <filesize>5683</filesize>
+          <filesize>5544</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Styles/ep_overrides.css</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>65945471f1c3215e0a1a547a507d77b2</hash>
+          <mime_type>text/x-c</mime_type>
+          <hash>d6dd22d904112c69c60f1e427afeb11d</hash>
           <hash_type>MD5</hash_type>
-          <filesize>961</filesize>
+          <filesize>1340</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -65,9 +65,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Styles/bs_overrides.css</filename>
           <mime_type>text/plain</mime_type>
-          <hash>742f9de1398a790c13d37b53b2a4d033</hash>
+          <hash>c49e82af4e8497b05fdee3a8a0d8aa4c</hash>
           <hash_type>MD5</hash_type>
-          <filesize>38</filesize>
+          <filesize>105</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -113,9 +113,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Scripts/buttons.js</filename>
           <mime_type>text/plain</mime_type>
-          <hash>19f6563c06369f9023263368447bfb5f</hash>
+          <hash>b901c50ba6eb552bcc5de86e977be5e3</hash>
           <hash_type>MD5</hash_type>
-          <filesize>901</filesize>
+          <filesize>948</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -145,9 +145,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Scripts/menu.js</filename>
           <mime_type>text/plain</mime_type>
-          <hash>e6d6ca53419df0bcd4ded5e18ec741a6</hash>
+          <hash>9dad8eda42a46881c80fe7781fa6918e</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1587</filesize>
+          <filesize>1770</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -219,7 +219,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>1.1.1</version>
+  <version>1.1.2</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -229,7 +229,7 @@
       </name>
     </item>
   </creators>
-  <datestamp>2015-03-04 15:49:46</datestamp>
+  <datestamp>2015-03-20 14:20:13</datestamp>
   <title>Bootstrap for EPrints</title>
   <description>An alternative look and feel which uses the bootstrap library (http://getbootstrap.com/).</description>
   <icon>images/epm/bootstrap.png</icon>

@@ -30,6 +30,9 @@
 <!-- bootstrap/branding_header -->
 	</epp:phrase>
 
+	<epp:comment>This is only used for Android browsing at the moment. Tints the status bar with website theme colour</epp:comment>
+	<epp:phrase id="bootstrap/colors:meta_theme_color">#fff</epp:phrase>
+
 	<epp:comment>htmlBottom is the secondary navbar. This contains the eprints menu, usually including the repo home button, and links to static pages (About), and the browse links.</epp:comment>
 	<epp:phrase id="bootstrap/branding_header:htmlBottom">
 <nav class="navbar navbar-default" role="navigation">

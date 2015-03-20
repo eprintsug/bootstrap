@@ -11,8 +11,11 @@
 		<link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon" />
                 <epc:phrase ref="bootstrap/head_imports:jQuery"/>
-
+ 
 		<epc:pin ref="head" />
+	
+		<meta name="theme-color" content="{phrase('bootstrap/colors:meta_theme_color')}" />
+			
 		
 		<!-- Boostrap -->
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no" />
