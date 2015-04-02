@@ -15,6 +15,8 @@
 
 	<epp:comment>This is all the theme related stylesheets needed for your Bootstrap theme.</epp:comment>
 	<epp:phrase id="bootstrap/stylesheets">
+	</epp:phrase>
+	<epp:phrase id="bootstrap/stylesheets:local">
         </epp:phrase>
 
 	<epp:comment>This is all the theme related scripts needed for your Bootstrap theme.</epp:comment>

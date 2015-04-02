@@ -35,6 +35,7 @@
 		<script src="/bootstrap_assets/Scripts/jquery.expander.min.js"></script>
 	
                 <epc:phrase ref="bootstrap/stylesheets"/>
+                <epc:phrase ref="bootstrap/stylesheets:local"/>
 		<!--  This is where the bootstrap theme for customisation goes -->
 		<!--link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/default-bootstrap-theme.css" /-->
 		<style type="text/css">
