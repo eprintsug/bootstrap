@@ -4,13 +4,13 @@
 
 
         <epp:phrase id="bootstrap/head_imports:jQuery">
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" />
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" />
 	</epp:phrase>
 	
 	<epp:comment>Update these imports to use new versions of Bootstrap of a locally hosted version.</epp:comment>
         <epp:phrase id="bootstrap/head_imports:bootstrap">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+                <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	</epp:phrase>
 
 	<epp:comment>This is all the theme related stylesheets needed for your Bootstrap theme.</epp:comment>
