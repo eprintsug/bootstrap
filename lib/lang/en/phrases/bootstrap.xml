@@ -4,17 +4,23 @@
 
 
         <epp:phrase id="bootstrap/head_imports:jQuery">
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" />
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" />
 	</epp:phrase>
 	
 	<epp:comment>Update these imports to use new versions of Bootstrap of a locally hosted version.</epp:comment>
         <epp:phrase id="bootstrap/head_imports:bootstrap">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+                <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	</epp:phrase>
 
 	<epp:comment>This is all the theme related stylesheets needed for your Bootstrap theme.</epp:comment>
 	<epp:phrase id="bootstrap/stylesheets">
+	</epp:phrase>
+	<epp:phrase id="bootstrap/stylesheets:local">
+        </epp:phrase>
+
+	<epp:comment>This is all the theme related scripts needed for your Bootstrap theme.</epp:comment>
+        <epp:phrase id="bootstrap/scripts">
         </epp:phrase>
 	
 	<epp:phrase id="bootstrap/branding_header:css">
@@ -25,6 +31,9 @@
 	<epp:phrase id="bootstrap/branding_header:htmlTop">
 <!-- bootstrap/branding_header -->
 	</epp:phrase>
+
+	<epp:comment>This is only used for Android browsing at the moment. Tints the status bar with website theme colour</epp:comment>
+	<epp:phrase id="bootstrap/colors:meta_theme_color">#fff</epp:phrase>
 
 	<epp:comment>htmlBottom is the secondary navbar. This contains the eprints menu, usually including the repo home button, and links to static pages (About), and the browse links.</epp:comment>
 	<epp:phrase id="bootstrap/branding_header:htmlBottom">

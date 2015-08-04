@@ -11,8 +11,11 @@
 		<link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon" />
                 <epc:phrase ref="bootstrap/head_imports:jQuery"/>
-
+ 
 		<epc:pin ref="head" />
+	
+		<meta name="theme-color" content="{phrase('bootstrap/colors:meta_theme_color')}" />
+			
 		
 		<!-- Boostrap -->
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no" />
@@ -32,6 +35,7 @@
 		<script src="/bootstrap_assets/Scripts/jquery.expander.min.js"></script>
 	
                 <epc:phrase ref="bootstrap/stylesheets"/>
+                <epc:phrase ref="bootstrap/stylesheets:local"/>
 		<!--  This is where the bootstrap theme for customisation goes -->
 		<!--link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/default-bootstrap-theme.css" /-->
 		<style type="text/css">
@@ -86,13 +90,17 @@
 			</div>
 		</footer>
 
-<!-- Scripts to override some eprints defaults and allow the default bootstrap to style everything -->
+                <epc:phrase ref="bootstrap/scripts"/>
+
+	
+		<!-- Scripts to override some eprints defaults and allow the default bootstrap to style everything -->
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/buttons.js" />
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/menu.js" />
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/forms.js" />
 		
 		<!--script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/ep_toolbox.js" /-->
-		<script src="https://cdn.rawgit.com/UEL-LLS/eprints-jquery-scripts/master/workflow.js" />
+		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/workflow.js" />
+		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/workflow_icons.js" />
 		
 		<!-- testing a script to convert some of eprints old school tables in to divs that can be easily manipluated by bootstrap -->
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/table2div.js" />

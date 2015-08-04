@@ -73,3 +73,23 @@ text-decoration: none!important;
 a:hover {
 color: #111
 }
+
+
+/****************
+ .ep_action_list
+*****************/
+
+table .ep_action_list {
+width: 12em;
+}
+table .ep_action_list li {
+float: left
+}
+
+th.ep_title_row {
+background-image: none;
+border: 1px solid #999;
+}
+.ep_title_row tr {
+line-height: 38px;
+}
