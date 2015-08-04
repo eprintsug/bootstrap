@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+    <!-- login -->
+    <epp:phrase id="cgi/login:page_layout">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                <epc:pin name="problems" />
+                <!-- LOGIN FORM -->
+                    <div class="form-group">
+                        <epc:pin name="input_username" />
+                    </div>
+                    <div class="form-group">
+                        <epc:pin name="input_password" />
+                    </div>
+                    <div class="form-group">
+                        <epc:pin name="login_button" />
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-lg-12"> 
+                                <div class="text-center">
+                                    <epc:pin name="reset_link" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </epp:phrase>
+    <epp:phrase id="cgi/login:reset_link"><a href="{$config{perl_url}}/reset_password" tabindex="5" class="forgot-password">Forgot Password?</a></epp:phrase>
+</epp:phrases>
