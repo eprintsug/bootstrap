@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://eprints-dev.uel.ac.uk/id/epm/bootstrap'>
+<epm id='http://template.ulcc.ac.uk/id/epm/bootstrap' xmlns='http://eprints.org/ep2/data/2.0'>
   <epmid>bootstrap</epmid>
   <uri>http://eprints-dev.uel.ac.uk/id/epm/bootstrap</uri>
   <documents>
@@ -17,9 +17,41 @@
           <datasetid>document</datasetid>
           <filename>epm/bootstrap/cfg/cfg.d/z_theme.pl</filename>
           <mime_type>text/plain</mime_type>
-          <hash>3961e86ff0ef35943927f5f13c9c423b</hash>
+          <hash>3ab9d4ef374ea5b890706004ea3fea22</hash>
           <hash_type>MD5</hash_type>
-          <filesize>26</filesize>
+          <filesize>216</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>static/images/epm/bootstrap.png</filename>
+          <mime_type>image/png</mime_type>
+          <hash>78fa77e08fe98285c1c3da42c8432abc</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>106673</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>lang/en/phrases/bootstrap.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>05e3a27373a049bc8356bdec1931ef75</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>10363</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>lang/en/phrases/login.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>576a9d2f4c481681bf6c8b0369eed128</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1527</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>plugins/EPrints/Plugin/Screen/Login/BootstrapLogin.pm</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>928e0bcbe8931636cd3b458e35aa166a</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>3540</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -31,19 +63,139 @@
         </file>
         <file>
           <datasetid>document</datasetid>
-          <filename>lang/en/phrases/bootstrap.xml</filename>
-          <mime_type>application/xml</mime_type>
-          <hash>8dd862f51e57c79a5ff2c541bfea311a</hash>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/workflow_icons.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>c1b76f454116a52e2ebed71f0fecf194</hash>
           <hash_type>MD5</hash_type>
-          <filesize>10320</filesize>
+          <filesize>1105</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
-          <filename>themes/bootstrap/templates/default.xml</filename>
-          <mime_type>application/xml</mime_type>
-          <hash>64a167acb31e90d2d92d3eeb20351429</hash>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/ep_warnings.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>d81cc13809fe0331c3bc93db1dcb1408</hash>
           <hash_type>MD5</hash_type>
-          <filesize>5544</filesize>
+          <filesize>1885</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/bazaar-styler.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>c188400735608f9e8315ca741e33af37</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>889</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/jquery.expander.min.js</filename>
+          <mime_type>text/html</mime_type>
+          <hash>9779af33d86fe3ea2f58343b9334e903</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>5715</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/table-destroyer.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>c799429828083d70bc6cbe3c60817690</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>750</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/menu.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>9dad8eda42a46881c80fe7781fa6918e</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1770</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/table2div.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>014f461c537c8b4159cb8a19d0649977</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1183</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/admin_menus.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>b180eb341f4290d56881b7c818e92e62</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>709</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/tabs.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>7d99c7b6f8e2e349c4e6788b1ae2a593</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>966</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/ep_search_control.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>ae1919c313f9b001bb05e5f3eb2b04e3</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>411</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/ep_toolbox.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>17971a15494ec890892ddf76305776ca</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>2146</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/buttons.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>b901c50ba6eb552bcc5de86e977be5e3</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>948</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/workflow.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>23a8416699bfb6f1b0a5a4c83c1ec2a5</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1222</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/forms.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>6970c51b222da65e83eb26909d479d06</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>2198</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/adv_search.js</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>ca1c9e1d1dfeaa1108ade7bb2a6806b2</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1525</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Images/loading18.gif</filename>
+          <mime_type>image/gif</mime_type>
+          <hash>4e239a307e8d3121fff869f3314c4e02</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>19239</filesize>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
+          <filename>themes/bootstrap/static/bootstrap_assets/Styles/bs_overrides.css</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>c49e82af4e8497b05fdee3a8a0d8aa4c</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>105</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -57,17 +209,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Styles/main.css</filename>
           <mime_type>text/plain</mime_type>
-          <hash>e8096cf62c8f413eb6e1e6d51d9908ec</hash>
+          <hash>d216ffc5305cb508fd128ac6b3b9d1a2</hash>
           <hash_type>MD5</hash_type>
-          <filesize>923</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Styles/bs_overrides.css</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>c49e82af4e8497b05fdee3a8a0d8aa4c</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>105</filesize>
+          <filesize>895</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -79,128 +223,16 @@
         </file>
         <file>
           <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Images/loading18.gif</filename>
-          <mime_type>image/gif</mime_type>
-          <hash>4e239a307e8d3121fff869f3314c4e02</hash>
+          <filename>themes/bootstrap/templates/default.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>fd3799141f1608838aa8f9b0dfdfb849</hash>
           <hash_type>MD5</hash_type>
-          <filesize>19239</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/ep_toolbox.js</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>17971a15494ec890892ddf76305776ca</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>2146</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/tabs.js</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>7d99c7b6f8e2e349c4e6788b1ae2a593</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>966</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/admin_menus.js</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>b180eb341f4290d56881b7c818e92e62</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>709</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/buttons.js</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>b901c50ba6eb552bcc5de86e977be5e3</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>948</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/forms.js</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>6970c51b222da65e83eb26909d479d06</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>2198</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/ep_search_control.js</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>ae1919c313f9b001bb05e5f3eb2b04e3</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>411</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/jquery.expander.min.js</filename>
-          <mime_type>text/html</mime_type>
-          <hash>9779af33d86fe3ea2f58343b9334e903</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>5715</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/menu.js</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>9dad8eda42a46881c80fe7781fa6918e</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>1770</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/adv_search.js</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>ca1c9e1d1dfeaa1108ade7bb2a6806b2</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>1525</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/table-destroyer.js</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>c799429828083d70bc6cbe3c60817690</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>750</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/bazaar-styler.js</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>02e30910d5a23e6e87b53e7f09aa7ae3</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>864</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/table2div.js</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>014f461c537c8b4159cb8a19d0649977</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>1183</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/ep_warnings.js</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>d81cc13809fe0331c3bc93db1dcb1408</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>1885</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>static/images/epm/bootstrap.png</filename>
-          <mime_type>image/png</mime_type>
-          <hash>78fa77e08fe98285c1c3da42c8432abc</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>106673</filesize>
+          <filesize>5767</filesize>
         </file>
       </files>
-      <mime_type>image/png</mime_type>
-      <format>image</format>
-      <main>static/images/epm/bootstrap.png</main>
+      <mime_type>application/xml</mime_type>
+      <format>other</format>
+      <main>themes/bootstrap/templates/default.xml</main>
       <content>install</content>
     </document>
     <document>
@@ -229,7 +261,7 @@
       </name>
     </item>
   </creators>
-  <datestamp>2015-03-20 14:20:13</datestamp>
+  <datestamp>2016-01-02 08:39:50</datestamp>
   <title>Bootstrap for EPrints</title>
   <description>An alternative look and feel which uses the bootstrap library (http://getbootstrap.com/).</description>
   <icon>images/epm/bootstrap.png</icon>

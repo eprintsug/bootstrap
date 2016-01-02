@@ -31,7 +31,7 @@ position: fixed;
 top: 0px;
 background-color: #fff;
 z-index: 100000;
-background-image: url('http://eprints-dev.uel.ac.uk/bootstrap_assets/Images/loading18.gif');
+background-image: url('/bootstrap_assets/Images/loading18.gif');
 background-repeat: no-repeat;
 background-position: center center;
 }
