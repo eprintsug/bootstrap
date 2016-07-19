@@ -38,7 +38,7 @@ sub render
 	my $op2;
 
     #Added bit for log message so pre login messages can be displayed without interupping the bootstrappynes of the BootstrapLogin
-    $bits{login_message} = $repo->html_phrase("cgi/login:message");
+    $bits{login_message} = $repo->html_phrase("cgi/login:pre_message");
 	
     $bits{log_in_until} = $repo->make_element( "select", name=>"login_log_in_until" );
 	$op1 = $repo->make_element( "option", value=>"until_close", selected=>"selected" );
