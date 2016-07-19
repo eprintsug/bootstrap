@@ -5,11 +5,11 @@
 
     <!-- login -->
     <epp:phrase id="cgi/login:page_layout">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
+        <div class="container col-md-12">
                 <epc:pin name="login_message" />
                 <epc:pin name="problems" />
+            <div class="row">
+                <div class="form-inline col-md-offset-3">
                 <!-- LOGIN FORM -->
                     <div class="form-group">
                         <epc:pin name="input_username" />

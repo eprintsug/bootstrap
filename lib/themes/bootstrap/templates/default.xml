@@ -102,9 +102,6 @@
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/workflow.js" />
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/workflow_icons.js" />
 		
-		<!-- testing a script to convert some of eprints old school tables in to divs that can be easily manipluated by bootstrap -->
-		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/table2div.js" />
-		
 		<!-- script to make more things panels -->
 		<script src="{$config{rel_path}}/bootstrap_assets/Scripts/ep_toolbox.js" />
 		
