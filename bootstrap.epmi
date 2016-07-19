@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <epm xmlns='http://eprints.org/ep2/data/2.0' id='http://192.168.171.150/id/epm/bootstrap'>
   <epmid>bootstrap</epmid>
-  <uri>http://template.ulcc.ac.uk/id/epm/bootstrap</uri>
+  <uri>http://192.168.171.150/id/epm/bootstrap</uri>
   <documents>
     <document>
       <files>
@@ -17,9 +17,9 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/zz_login.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>12dc3dead84b5811adceaadc24ffc090</hash>
+          <hash>9386d1f25a37f5dc0adb35e77176dcd3</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1576</filesize>
+          <filesize>1589</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -103,14 +103,6 @@
         </file>
         <file>
           <datasetid>document</datasetid>
-          <filename>themes/bootstrap/static/bootstrap_assets/Scripts/table2div.js</filename>
-          <mime_type>text/x-c++</mime_type>
-          <hash>014f461c537c8b4159cb8a19d0649977</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>1183</filesize>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Scripts/workflow_icons.js</filename>
           <mime_type>text/plain</mime_type>
           <hash>c1b76f454116a52e2ebed71f0fecf194</hash>
@@ -185,9 +177,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/templates/default.xml</filename>
           <mime_type>text/html</mime_type>
-          <hash>fd3799141f1608838aa8f9b0dfdfb849</hash>
+          <hash>f232e2898be40c86e4534948ab9d3a2b</hash>
           <hash_type>MD5</hash_type>
-          <filesize>5767</filesize>
+          <filesize>5559</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -261,7 +253,7 @@
       </name>
     </item>
   </creators>
-  <datestamp>2016-07-19 08:33:15</datestamp>
+  <datestamp>2016-07-19 13:15:30</datestamp>
   <title>Bootstrap for EPrints</title>
   <description>An alternative look and feel which uses the bootstrap library (http://getbootstrap.com/).</description>
   <icon>images/epm/bootstrap.png</icon>
