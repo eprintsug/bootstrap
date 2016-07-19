@@ -37,7 +37,10 @@ sub render
 	my $op1;
 	my $op2;
 
-	$bits{log_in_until} = $repo->make_element( "select", name=>"login_log_in_until" );
+    #Added bit for log message so pre login messages can be displayed without interupping the bootstrappynes of the BootstrapLogin
+    $bits{login_message} = $repo->html_phrase("cgi/login:message");
+	
+    $bits{log_in_until} = $repo->make_element( "select", name=>"login_log_in_until" );
 	$op1 = $repo->make_element( "option", value=>"until_close", selected=>"selected" );
 	$op1->appendChild( $repo->html_phrase( "cgi/login:until_close" ) );
 	$op2 = $repo->make_element( "option", value=>"forever" );
