@@ -17,9 +17,9 @@
           <datasetid>document</datasetid>
           <filename>lang/en/phrases/zz_login.xml</filename>
           <mime_type>application/xml</mime_type>
-          <hash>9386d1f25a37f5dc0adb35e77176dcd3</hash>
+          <hash>0457f982db56276c4c2481b1f52837e4</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1589</filesize>
+          <filesize>1432</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -253,7 +253,7 @@
       </name>
     </item>
   </creators>
-  <datestamp>2017-10-03 15:47:46</datestamp>
+  <datestamp>2017-10-03 16:20:06</datestamp>
   <title>Bootstrap for EPrints</title>
   <description>An alternative look and feel which uses the bootstrap library (http://getbootstrap.com/).</description>
   <icon>images/epm/bootstrap.png</icon>
