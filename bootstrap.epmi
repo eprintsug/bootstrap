@@ -201,7 +201,7 @@
           <datasetid>document</datasetid>
           <filename>plugins/EPrints/Plugin/Screen/Login/BootstrapLogin.pm</filename>
           <mime_type>text/plain</mime_type>
-          <hash>6523bee47604bb6000bc73a5e6a3ea87</hash>
+          <hash>2beaf11f61d0b66e472547c432c06566</hash>
           <hash_type>MD5</hash_type>
           <filesize>3748</filesize>
         </file>
@@ -243,7 +243,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>1.1.2</version>
+  <version>1.1.3</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
@@ -253,7 +253,7 @@
       </name>
     </item>
   </creators>
-  <datestamp>2016-07-19 13:48:23</datestamp>
+  <datestamp>2017-10-03 15:47:46</datestamp>
   <title>Bootstrap for EPrints</title>
   <description>An alternative look and feel which uses the bootstrap library (http://getbootstrap.com/).</description>
   <icon>images/epm/bootstrap.png</icon>
