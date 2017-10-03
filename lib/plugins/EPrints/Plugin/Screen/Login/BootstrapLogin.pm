@@ -61,7 +61,7 @@ sub render
 		$bits{reset_link} = $repo->make_doc_fragment;
 	}                                   
  
-    $bits{login_message} = $repo->html_phrase("cgi/login:pre_message", "reset_link"=> $bits{reset_link});	
+    $bits{login_message} = $repo->html_phrase("cgi/login:pre_message");	
                                        
 	$bits{problems} = $repo->make_doc_fragment;
 	$bits{input_username} = $repo->render_input_field(
