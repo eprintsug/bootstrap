@@ -149,7 +149,7 @@
 		}); 
 		</script>	
 		<script>
-			jQuery(window).on("load",function() {
+			jQuery(document).ready(function() {
 				jQuery('#blocker').remove();
 			});
                 </script>
