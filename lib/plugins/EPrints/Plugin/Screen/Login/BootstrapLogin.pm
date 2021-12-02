@@ -81,6 +81,7 @@ sub render
         tabindex => "2",
         class => "form-control ep_form_text",
         placeholder => "Password",
+        autocomplete => "off",
     );
     
     	my $title = $self->render_title;
