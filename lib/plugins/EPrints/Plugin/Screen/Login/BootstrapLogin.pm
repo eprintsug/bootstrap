@@ -68,20 +68,20 @@ sub render
 	   type => "text",
        name => 'login_username',
        id => "login_username",
-       tabindex => "1",
        class => "ep_form_text form-control", 
-       placeholder => "Username" ,
+       placeholder => $repo->html_phrase("cgi/login:username"),
        value => "",
+       'aria-label' => $repo->html_phrase("cgi/login:username"),
     );
 
 	$bits{input_password} = $repo->render_input_field(
         type => "password",
         name => "login_password",
         id => "login_password",
-        tabindex => "2",
         class => "form-control ep_form_text",
-        placeholder => "Password",
+        placeholder => $repo->html_phrase("cgi/login:password"),
         autocomplete => "off",
+       'aria-label' => $repo->html_phrase("cgi/login:password"),
     );
     
     	my $title = $self->render_title;
@@ -89,7 +89,6 @@ sub render
         type => "submit",
         name => "_action_login",
         id => "login-submit" ,
-        tabindex => "4",
         class => "ep_form_action_button login-button",
         value => $repo->xhtml->to_text_dump( $title ),
     );

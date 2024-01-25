@@ -7,8 +7,7 @@
     <epp:phrase id="cgi/login:page_layout">
         <div class="container col-md-12">
             <div class="row text-center">
-                    <p><epc:pin name="login_message" /> <epc:pin name="reset_link" /></p>
-
+                    <p><epc:pin name="login_message" /></p>
                     <epc:pin name="problems" />
             </div>
             <div class="row">
@@ -24,10 +23,16 @@
                         <epc:pin name="login_button" />
                     </div>
                 </div>
-            </div>
         </div>
+        <div class="row text-center">
+          <p style="margin-top: 10px"><epc:pin name="reset_link" /></p>
+        </div>
+    </div>
     </epp:phrase>
-    <epp:phrase id="cgi/login:reset_link">If you have forgotten your password, you may <a href="{$config{perl_url}}/reset_password" tabindex="5" class="forgot-password">reset</a> it.</epp:phrase>
+    <epp:phrase id="cgi/login:reset_link">If you have forgotten your password, you may <a href="{$config{perl_url}}/reset_password" class="forgot-password">reset</a> it.</epp:phrase>
     <epp:phrase id="cgi/login:pre_message">Please enter your username and password.</epp:phrase>
+
+    <epp:phrase id="cgi/login:username">Username</epp:phrase>
+    <epp:phrase id="cgi/login:password">Password</epp:phrase>
 
 </epp:phrases>
