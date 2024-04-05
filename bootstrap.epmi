@@ -49,9 +49,9 @@
           <datasetid>document</datasetid>
           <filename>plugins/EPrints/Plugin/Screen/Login/BootstrapLogin.pm</filename>
           <mime_type>text/plain</mime_type>
-          <hash>6f0e9c3a149c750bf951968cac208c7b</hash>
+          <hash>03666ec791643a9a2a3d3ba092ff202f</hash>
           <hash_type>MD5</hash_type>
-          <filesize>3894</filesize>
+          <filesize>3874</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -243,7 +243,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>1.1.4</version>
+  <version>1.1.5</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>

@@ -69,9 +69,9 @@ sub render
        name => 'login_username',
        id => "login_username",
        class => "ep_form_text form-control", 
-       placeholder => $repo->html_phrase("cgi/login:username"),
+       placeholder => $repo->phrase("cgi/login:username"),
        value => "",
-       'aria-label' => $repo->html_phrase("cgi/login:username"),
+       'aria-label' => $repo->phrase("cgi/login:username"),
     );
 
 	$bits{input_password} = $repo->render_input_field(
@@ -79,9 +79,9 @@ sub render
         name => "login_password",
         id => "login_password",
         class => "form-control ep_form_text",
-        placeholder => $repo->html_phrase("cgi/login:password"),
+        placeholder => $repo->phrase("cgi/login:password"),
         autocomplete => "off",
-       'aria-label' => $repo->html_phrase("cgi/login:password"),
+       'aria-label' => $repo->phrase("cgi/login:password"),
     );
     
     	my $title = $self->render_title;
