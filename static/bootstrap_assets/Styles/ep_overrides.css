@@ -1,0 +1,95 @@
+/****************************************
+
+ Overrides for Bootstrap (EPrints)
+ 
+
+ This stylesheet overrides some default
+ EPrints styles.
+
+****************************************/
+
+
+form {
+	display: block;
+}
+
+
+/* z-index update to allow autofills to sit on top of the workflow panels */
+.ep_drop_target {
+	z-index: 9000; 
+}
+
+.ep_tab_panel {
+	border: 1px solid #ddd;
+	border-top: 0px;
+	background-image: none;
+	background-color: #fff;
+}
+
+.ep_block {
+
+margin-top: 1em;
+margin-bottom: 1em;
+
+}
+
+/***********
+* Workflows..
+*************/
+
+.ep_form_input_grid tr {
+
+border-bottom: 5px solid transparent;
+}
+
+.ep_form_input_grid td {
+border-right: 3px solid transparent;
+}
+
+/****************************
+ Override for RIOXX2 plugin.
+ 120% font size breaks the 
+ bootstrap tabs. 
+*****************************/
+
+li #rioxx2_tab_title {
+	font-size: 90%!important;
+}
+
+/*******************
+ Summary Page Stuff
+********************/
+
+#summary_buttons a:visited {color:#fff}
+
+/**********
+ links    
+*********/
+
+a, a:hover , a:visited {
+color: #333;
+text-decoration: none!important;
+}
+a:hover {
+color: #111
+}
+
+
+/****************
+ .ep_action_list
+*****************/
+
+table .ep_action_list {
+width: 12em;
+}
+table .ep_action_list li {
+float: left
+}
+
+th.ep_title_row {
+background-image: none;
+border: 1px solid #999;
+}
+.ep_title_row tr {
+line-height: 38px;
+}

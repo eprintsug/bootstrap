@@ -1,0 +1,40 @@
+
+
+pre { overflow: visible!important }
+
+.form-control {
+
+display: inline-block!important;
+width:auto!;
+
+}
+
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-success:active {
+    background-color: #146c43;
+    border-color: #13653f;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+    border-color: #146c43;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:active {
+    background-color: #b02a37;
+    border-color: ##a52834;
+}
+.btn-danger:hover {
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+
