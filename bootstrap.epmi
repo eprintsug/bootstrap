@@ -201,9 +201,9 @@
           <datasetid>document</datasetid>
           <filename>themes/bootstrap/static/bootstrap_assets/Styles/ep_overrides.css</filename>
           <mime_type>text/x-c</mime_type>
-          <hash>d6dd22d904112c69c60f1e427afeb11d</hash>
+          <hash>1d8baac194d51cf20de4c2de40ff8c4d</hash>
           <hash_type>MD5</hash_type>
-          <filesize>1340</filesize>
+          <filesize>1308</filesize>
         </file>
         <file>
           <datasetid>document</datasetid>
@@ -243,7 +243,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>1.1.5</version>
+  <version>1.1.6</version>
   <controller>EPMC::Bootstrap</controller>
   <creators>
     <item>
